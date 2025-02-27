@@ -1,0 +1,26 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+*.tfvars.json
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Terragrunt files (optional based on your use case)
+terragrunt.hcl
+*.terragrunt.hcl
+.terragrunt-cache/
+
+# Local backup files (optional, if you want to ignore local temp backups)
+*.bak
+*.swp
+
+# OS-specific files (optional, to avoid committing OS-specific files)
+.DS_Store      # macOS
+Thumbs.db      # Windows
